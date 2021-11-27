@@ -7,6 +7,18 @@
 }
 
 
+
+header .navbar li a:hover{
+    color: black;
+    border-bottom: 2px solid #cc0033;
+}
+
+header  a span:hover{
+    color: blue;
+
+}
+
+
 /* *{
   
     padding: 0px;
@@ -37,31 +49,19 @@ header{
     color: white;
 }
 
+ /* skills stylling  */
 
-/* skills stylling */
-.carte1:hover{
-    background: crimson;
-}
+ .skills .column .right .bars{
+     margin-bottom: 15px;
+ }
+
+ .skills .column .right .info{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
 
 
-
-
-
-/* contact section styling */
-
-.contact .title::after{
-    content: "get in Touch";
-}
-
-.contact .contact-content .column{
-    width: calc(50% - 30px);
-}
-
-.contact .contact-content .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
 
 .contact .contact-content .left p{
     text-align: justify;
