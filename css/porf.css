@@ -6,6 +6,27 @@
     text-decoration: none;
 }
 
+
+/* *{
+  
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+} */
+
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -15,96 +36,64 @@
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
-#skills {
-    padding: 20px 15px 75px 15px;
-    color: #fff;
-  }
-  
-  .skills-text {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
+
+
+/* skills stylling */
+.carte1:hover{
+    background: crimson;
+}
+
+
+
+
+
+/* contact section styling */
+
+.contact .title::after{
+    content: "get in Touch";
+}
+
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text{
     font-size: 20px;
-  }
-  
-  .skills-title {
-    display: block;
-    margin-bottom: 2rem;
-  }
-  
-  .skills-title.underline:before {
-    width: 40px;
-  }
-  
-  .skills-list {
-    overflow: hidden;
-    position: relative;
-    z-index: 10
-  }
-  
-  .skill-name:after {
-    background-color: #999797;
-    content: '';
-    display: block;
-    height:1rem;
-    position: relative;
-    top: 3px;
-    /*top: 1rem;*/
-    width: 100%;
-  }
-  
-  .skill-percent {
-    font-size: 0;
-    height: 1rem;
-    position: relative;
-    top: -.8rem;
-    transition: 3s linear;
-    width: 0;
-  }
-  
-  /* SKILL BAR COLORS */
-  
-  .skill-percent-html {
-    background-color: #FF5C00;
-  }
-  .skill-percent-css {
-    background-color: #00B1DB;
-  }
-  .skill-percent-jquery {
-    background-color: #FFC100;
-  }
-  .skill-percent-scss {
-    background-color: #FF768E;
-  }
-  .skill-percent-javascript {
-    background-color: #FF8B00;
-  }
-  .skill-percent-wordpress {
-    background-color: #0073b0;
-  }
-  .skill-percent-php {
-    background-color: #464c99;
-  }
-  .skill-percent-git {
-    background-color: #ff5c00;
-  }
-  
-  /* Heading Underline */
-  
-  .underline {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .underline:before {
-    background-color: #fff;
-    bottom: -15px;
-    content: '';
-    height: 2px;
-    left: 0;
-    position: absolute;
-    width: 110%;
-  }
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .left p{
+    text-align: justify;
+}
+
+
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+
+.contact .contact-content .row .i{
+    font-size: 25px;
+    color: crimson;
+}
+
+.contact .cosntact-content .row .head{
+    font-weight: 500;
+}
+
+.contact .contact-content .row .info .sub-title{
+    color: #333;
+}  
+
+
+
+
 
 
 
