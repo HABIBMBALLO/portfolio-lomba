@@ -72,13 +72,12 @@ header{
   }
   .progress-bar {
     text-align: left;
-  
     border-radius:20px;
     transition-duration: 3s;
   }
 
 
- .skills .column .right .bars{
+ /* .skills .column .right .bars{
      margin-bottom: 15px;
  }
 
@@ -86,7 +85,7 @@ header{
      display: flex;
      align-items: center;
      justify-content: space-between;
- }
+ } */
 
 
 
@@ -119,7 +118,7 @@ header{
 }  
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -127,6 +126,7 @@ header{
     text-align: center;
     color: white;
 }
+
 
 
 
